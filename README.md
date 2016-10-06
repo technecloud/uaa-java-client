@@ -76,3 +76,10 @@ Authoratative information about the UAA is located [here](https://github.com/clo
 
 Pull requests are welcome! Current to-dos including writing test cases for group
 mapping APIs and making it easier for test cases to point to an existing UAA server.
+
+# Techne
+
+Esse é um fork do projeto original [uaa-java-client](https://github.com/cloudfoundry-incubator/uaa-java-client) para ser usado dentro da plataforma CronApp.
+Basicamente não possui nenhuma modificação interna, apenas configurações no `pom.xml` com definições para publicação no [Artifactory](https://artifactory.cronapp.io).
+
+Veja também o projeto [CronApp Adapter UAA](https://github.com/technecloud/cronapp-adapter-uaa).
